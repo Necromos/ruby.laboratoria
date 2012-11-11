@@ -4,6 +4,8 @@ class CreateAnimes < ActiveRecord::Migration
       t.string :title
       t.integer :yop
       t.integer :noe
+      t.date :doc
+      t.date :doe
 
       t.timestamps
     end
